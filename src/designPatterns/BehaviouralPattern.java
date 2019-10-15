@@ -14,6 +14,10 @@ class Channel {
 	public void unSubscribe(Subscriber sub) {
 		subs.remove(sub);
 	}
+	
+	
+	
+	
 
 	public void notifySub() {
 		for (Subscriber sub : subs) {
